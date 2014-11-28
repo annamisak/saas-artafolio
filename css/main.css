@@ -48,7 +48,7 @@ body {
     padding: 0;
 }
 
-/* ------------ LINKS starts ------------ */
+/* ------------ KEYBOARD USE SETTINGS and LINKS starts ------------ */
 
 a,
 a:link, 
@@ -62,10 +62,6 @@ a:hover {
     color: #000;
     text-decoration: none;
 }
-
-/* ------------ LINKS ends ------------ */
-
-/* ------------ KEYBOARD USE SETTINGS starts ------------ */
 
 a:focus {
     outline: 3px solid red;
@@ -92,7 +88,7 @@ a:focus {
     top: 0;
 }
 
-/* ------------ KEYBOARD USE SETTINGS ends ------------ */
+/* ------------ KEYBOARD USE SETTINGS and LINKS ends ------------ */
 
 .img {
     display: block;
@@ -181,6 +177,7 @@ a:focus {
     position: absolute;
     bottom: 5%;
     margin: 0 auto;
+    width: 100%;
 }
 
 h1 {
@@ -412,7 +409,7 @@ button:hover {
     }
     
     .af-description, .p-center {
-        width: 50em;
+        width: 40em;
         margin-left: auto;
         margin-right: auto;
   }
