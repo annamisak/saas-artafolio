@@ -16,7 +16,7 @@ html {
   text-size-adjust: 100%;
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 68em) {
     
     html {
         font-size: 110%;
@@ -235,7 +235,7 @@ h1 {
 }
 
 .img-size {
-    width: 40px;
+    width: 28px;
 }
 
 /* ------------ FEATURED ends ------------ */
@@ -279,25 +279,29 @@ p {
 
 /* ------------ Buttons starts ------------ */
 
-button {
-    background: red;
-    color: #fff;
-    font-size: 1.2em;
-    height: 60px;
-    width: 150px;
-    line-height: 2em;
+.button-center {
     text-align: center;
-    border: 0;
+}
+
+.button-red, 
+.button-red:link, 
+.button-red:visited,
+.button-red:active {
+
+    background: red; 
+    text-align: center; 
+    padding: 10px; 
+    color: #fff;  
+    text-decoration: none; 
+    font-size: 1,2em; 
+    line-height: 2em; 
+    margin: 20px;
     border-radius: 10px 0px 10px 0px;
-    transition: all 0.3s ease 0s;
 }
 
-button:hover {
-    background: #000;
-}
-
-.button {
-    text-align: center;
+.button-red:hover {
+    background: #fff;
+    color: red;
 }
 
 /* ------------ Buttons ends ------------ */
@@ -344,7 +348,7 @@ button:hover {
 /* ------------ NAVIGATION footer ends ------------ */
 
 
-@media only screen and (min-width: 28em) {
+@media only screen and (min-width: 30em) {
     
   .nav {
     text-align: center;
@@ -385,22 +389,28 @@ button:hover {
 }
 
 @media only screen and (min-width: 50em) {
-
-  .nav {
-    text-align: center;
-  }
     
-  .nav-footer {
-    float: right;
-  }
+    .nav {
+        text-align: center;
+    }
     
-  .copyright {
-    float: left;
-  }
+    .nav-footer {
+        float: right;
+    }
+    
+    .copyright {
+        float: left;
+    }
+    
+    .artblock-wrapper {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
        
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 68em) {
     
     form {
         margin-left: auto;
