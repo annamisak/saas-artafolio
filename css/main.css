@@ -131,10 +131,6 @@ a:focus {
     margin: 0;
 }
 
-.nav-bottom {
-    list-style-type: none;
-}
-
 .top-bar {
     background-color: #fff;
 }
@@ -143,6 +139,7 @@ a:focus {
 .nav a:link,
 .nav a:visited {
     display: block;
+    padding: 1rem;
     color: #000;
     text-decoration: none;
     background-color: #fff;
@@ -222,6 +219,28 @@ h1 {
     float: left;
 }
 
+.social-network {
+    margin: 0;
+    height: auto;
+    display: block;
+}
+
+.social-network li {
+    line-height: 3rem;
+}
+
+.social-network ul li {
+    margin: 2% 0;
+    padding: 0;
+    float: left;	
+    border: 0px solid lightgray;
+    list-style:none;
+}
+
+.img-size {
+    width: 40px;
+}
+
 /* ------------ FEATURED ends ------------ */
 
 /* ------------ COLOURS CENTERED-ELEMENTS MISC starts ------------ */
@@ -255,6 +274,10 @@ p {
     color: #000;
 }
 
+.white {
+    color: #fff;
+}
+
 /* ------------ COLOURS CENTERED-ELEMENTS MISC ends ------------ */
 
 /* ------------ Buttons starts ------------ */
@@ -282,6 +305,47 @@ button:hover {
 
 /* ------------ Buttons ends ------------ */
 
+/* ------------ FOOTER starts ------------ */
+
+.footer {
+    background-color: #000;
+    overflow: hidden;
+}
+
+/* ------------ FOOTER ends ------------ */
+
+/* ------------ NAVIGATION footer starts ------------ */
+
+.nav-footer {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-footer a,
+.nav-footer a:link,
+.nav-footer a:visited {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    background-color: #000;
+    border-radius: 10px 0px 10px 0px;
+}
+
+.nav-footer a:hover,
+.nav-footer a:focus,
+.nav-footer a:active 
+.nav-footer .nav-footer-current,
+.nav-footer .nav-footer-current:link,
+.nav-footer .nav-footer-current:visited {
+    background-color: red;
+    color: #fff;
+    border-radius: 10px 0px 10px 0px;
+    transition: all 0.3s ease 0s;
+}
+
+/* ------------ NAVIGATION footer ends ------------ */
+
 
 @media only screen and (min-width: 28em) {
     
@@ -301,6 +365,26 @@ button:hover {
     display: inline;
   }
     
+  .nav-footer a,
+  .nav-footer a:link,
+  .nav-footer a:visited {
+    display: inline-block;
+    padding: 1rem;
+  }
+
+  .nav-footer li::after {
+    content: "·";
+    display: inline-block;
+    width: 0.5em;
+
+    color: #666;
+    text-align: right;
+  }
+
+  .nav-footer li:last-child::after {
+    content: none;
+  }
+    
 }
 
 @media only screen and (min-width: 50em) {
@@ -309,7 +393,7 @@ button:hover {
     text-align: center;
   }
     
-  .nav-bottom {
+  .nav-footer {
     float: right;
   }
     
