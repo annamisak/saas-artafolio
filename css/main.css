@@ -40,7 +40,7 @@ html {
 }
 
 *, *:before, *:after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 body {
@@ -177,10 +177,10 @@ a:focus {
 }
 
 .billboard-inside {
-        background-color: rgba(0,0,0,0.5);
-        position: absolute;
-        bottom: 5%;
-        margin: 0 auto;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    bottom: 5%;
+    margin: 0 auto;
 }
 
 h1 {
@@ -234,7 +234,7 @@ h1 {
     padding: 0;
     float: left;	
     border: 0px solid lightgray;
-    list-style:none;
+    list-style: none;
 }
 
 .img-size {
@@ -255,7 +255,7 @@ h1 {
 }
 
 .section-dark {
-  background-color: #fff;
+    background-color: #fff;
 }
 
 .red {
@@ -369,7 +369,7 @@ button:hover {
   .nav-footer a:link,
   .nav-footer a:visited {
     display: inline-block;
-    padding: 1rem;
+    padding: 1em;
   }
 
   .nav-footer li::after {
@@ -400,12 +400,6 @@ button:hover {
   .copyright {
     float: left;
   }
-    
-    .af-description, .p-center {
-        width: 60%;
-        margin-left: auto;
-        margin-right: auto;
-  }
        
 }
 
@@ -416,5 +410,10 @@ button:hover {
         margin-right: auto;
         width: 35em;
     }
-
+    
+    .af-description, .p-center {
+        width: 50em;
+        margin-left: auto;
+        margin-right: auto;
+  }
 }   
