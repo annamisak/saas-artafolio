@@ -142,6 +142,12 @@ a:focus {
     border-radius: 10px 0px 10px 0px;
 }
 
+.nav-footer {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
 .nav a:hover,
 .nav a:focus,
 .nav a:active 
@@ -332,6 +338,7 @@ p {
 .nav-footer a:link,
 .nav-footer a:visited {
     display: block;
+    padding: .5rem;
     color: #fff;
     text-decoration: none;
     background-color: #000;
@@ -355,15 +362,15 @@ p {
 
 @media only screen and (min-width: 30em) {
     
-  .nav {
-    text-align: center;
-  }
+    .nav, nav-footer {
+        text-align: center;
+    }
 
-  .nav li {
-    display: inline-block;
-  }
+    .nav li, nav-footer li {
+        display: inline-block;
+    }
     
-  .copyright {
+    .copyright {
     text-align: center;
   }
 
@@ -375,7 +382,7 @@ p {
   .nav-footer a:link,
   .nav-footer a:visited {
     display: inline-block;
-    padding: 1em;
+    padding: .3em;
   }
 
   .nav-footer li::after {
