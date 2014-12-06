@@ -6,11 +6,97 @@
     <link href="css/main.css" rel="stylesheet">
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/typography.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
+    
+<ul class="skip-links">
+    <li><a href="#main">Skip to the main content</a></li>
+    <li><a href="#portfolios">Skip to artist portfolios</a></li>
+    <li><a href="#nav">Skip to navigation</a></li>
+</ul>
+    
+<header id="top" role="banner">
+    <div class="grid grid-middle masthead pad-bottom-half pad-top-half">
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 pad-t-1-2 pad-b-1-2 center-logo">
+        <a href="index.html"><img src="images/af-logo-01.svg" class="logo push-0" alt="ArtaFolio Logo"></a>
+    </div>
+    <nav id="navigation" role="navigation" class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 float-right center">
+        <ul class="nav push-0">
+            <li><a class="island-1-2" href="pricing.html">Pricing</a></li>
+            <li><a class="island-1-2" href="signup.html">Join</a></li>
+            <li><a class="island-1-2" href="login.html">Sign In</a></li>
+        </ul>
+    </nav>
+        </div>
+</header>
 
-    Signup!
+<main role="main" id="main">
+    
+    <div class="forms slabo27px island">
+        <h2 class="zetta text-center">Join Jupiter's Exploration Team</h2>
+        <p class="text-center">Are you interested in exploring Jupiter with a group of extremely talented people? <span class="italic">Sign up below!</span></p>
 
+        <form action="thanks.html" method="post">
+    
+            <div class="pad-bottom-half">
+                <label for="name">Name</label>
+                <input class="field" id="name">
+            </div>
+    
+            <div class="pad-bottom-half">
+                <label for="e-mail">E-mail</label>
+                <input class="field" type="email" id="e-mail">
+            </div>
+            
+            <div class="pad-bottom-half">
+                <label for="age">Age</label>
+                <input class="field" type="number" id="age">
+
+            </div>
+            
+            <fieldset>
+                <legend>Your level of awesomeness:</legend>
+                
+                <span class="radio">
+                    <input type="radio" id="not" name="level">
+                    <label for="not">Meh...</label>
+                </span>
+                <span class="radio">
+                    <input type="radio" id="good" name="level">
+                    <label for="good">Pretty good.</label>
+                </span> 
+                <span class="radio">
+                    <input type="radio" id="super" name="level">
+                    <label for="super">Super!</label>
+                </span>
+            </fieldset>
+            
+            <div>
+                <label class="italic" for="deserve">Explain why you deserve to go:</label>
+                <textarea id="deserve"></textarea>
+            </div>
+            
+            <div class="button island">
+                <button type="submit">Sign Up</button>
+            </div>
+            </form>
+    </div>
+    
+</main>    
+    
+<footer class="footer pad-bottom pad-top">
+    <div role="contentinfo" class="wrapper-footer">
+        <p class="copyright gutter milli">All Rights Reserved © 2014 ArtaFolio. | <a href="">Top</a></p>
+        <nav>
+            <ul class="nav nav-footer gutter">
+                <li class="milli"><a href="pricing.html">Pricing</a></li>
+                <li class="milli"><a href="signup.html">Join</a></li>
+                <li class="milli"><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
 </body>
 </html>

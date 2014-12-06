@@ -186,11 +186,16 @@ a:focus {
     width: 100%;
 }
 
+.center-logo {
+    text-align: center;
+}
+
 h1 {
     color: #fff;
     text-align: center;
     text-transform: uppercase;
-    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.9); 
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.9);
+    margin: 0;
 }
 
 .af-description {
@@ -329,6 +334,57 @@ p {
 
 /* ------------ FOOTER ends ------------ */
 
+/* ------------ FORMS starts ------------ */
+
+.forms {
+    background-color: #faf1e1;
+    overflow: hidden;
+}
+
+label{
+    display: block;
+}
+
+input + label {
+    display: inline-block;
+}
+
+textarea {
+    width: 100%;
+    height: 22em;
+}
+
+button {
+    font-size: 1.5em;
+    font-family: sans-serif;
+    border: 1px solid #000;
+    background-color: #fafafa;
+    cursor: pointer;
+}
+
+.button {
+    text-align: center;
+}
+
+button:hover {
+    background-image: linear-gradient(to right, #ecd2a1, #ecd2a1);
+}
+
+fieldset {
+    padding: 0;
+    border-style: none;
+}
+
+.field {
+    width: 100%;
+    height: 3em;
+}
+
+.radio {
+    white-space: nowrap;
+    padding-right: 1em;
+}
+
 /* ------------ NAVIGATION footer starts ------------ */
 
 .nav-footer {
@@ -401,6 +457,12 @@ p {
     content: none;
   }
     
+    .af-description, .p-center {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+  }
+    
 }
 
 @media only screen and (min-width: 50em) {
@@ -417,12 +479,32 @@ p {
         float: left;
     }
     
-    .artblock-wrapper {
+    .artblock-wrapper, .wrapper-footer {
         width: 90%;
         margin-left: auto;
         margin-right: auto;
     }
-       
+    
+    .center-logo {
+        text-align: left;
+    }
+    
+    .nav {
+        float: right;
+    }
+    
+     .af-description, .p-center, .wrapper{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+     }
+    
+    header, {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
 }
 
 @media only screen and (min-width: 68em) {
@@ -433,15 +515,16 @@ p {
         width: 35em;
     }
     
-    .af-description, .p-center {
-        width: 40em;
-        margin-left: auto;
-        margin-right: auto;
-  }
-    
-    .artblock-wrapper {
+    .artblock-wrapper, .wrapper-footer, header {
         width: 80%;
         margin-left: auto;
         margin-right: auto;
     }
+    
+    .af-description, .p-center {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+  }        
+    
 }   

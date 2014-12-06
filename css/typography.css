@@ -2,7 +2,7 @@ html {
   font: normal 100%/1.5 'Raleway' Sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6,
+h2, h3, h4, h5, h6,
 p, ul, ol, dl, dd, figure,
 blockquote, details, hr,
 fieldset, pre, table {
@@ -22,6 +22,7 @@ fieldset, pre, table {
 h1, .exa {
   font-size: 1.8020rem;
   line-height: 1.6648;
+  margin: 0;
 
 }
 
