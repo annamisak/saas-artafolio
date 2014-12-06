@@ -164,6 +164,10 @@ a:focus {
 
 /* ------------ BILLBOARD starts ------------ */
 
+main {
+    height: 100%;
+}
+
 .billboard {
     margin: inherit;
     background-image: url(../images/artafolio.jpg);
@@ -291,7 +295,10 @@ p {
 
 .wrapper-white {
     background-color: #fff;
+}
 
+.br {
+    display: block; 
 }
 
 /* ------------ COLOURS CENTERED-ELEMENTS MISC ends ------------ */
@@ -392,9 +399,11 @@ fieldset {
     width: auto;
     padding: 1.5em;
     margin: 0;
+    background-color: #f9f8f8;
     border-bottom: 1px solid #c1c1c1;
     display: block;
     text-align: center;
+    height: 100%;
 }
 
 .price-list li:hover {
