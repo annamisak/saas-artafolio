@@ -60,13 +60,13 @@ a:visited {
     text-decoration: none;
 }
 
-a:hover {
-    color: #000;
-    text-decoration: none;
+a:hover,
+a:active {
+    outline: none;
 }
 
 a:focus {
-    outline: 3px solid red;
+    outline: 2px solid #c1c1c1;
 }
 
 .skip-links {
@@ -553,6 +553,10 @@ fieldset {
         margin-right: auto;
         width: 23em;
     }
+    
+    .pr {
+        width: 80%;
+    }
 
     
 }
@@ -595,6 +599,10 @@ fieldset {
         width: 85%;
         margin-left: auto;
         margin-right: auto;
+    }
+    
+    .pr {
+        width: 100%;
     }
     
 }
