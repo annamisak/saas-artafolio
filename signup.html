@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
     <meta charset="utf-8">
-    <title>ArtaFolio - Pricing</title>
+    <title>ArtaFolio - Login to Your ArtaFolio Account</title>
     <link href="css/main.css" rel="stylesheet">
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/typography.css" rel="stylesheet">
@@ -34,73 +34,54 @@
 </header>
 
 <main role="main" id="main">
-    <div class="bb-wrapper island">
-        <h2 class="red center zetta island push-0">Create your own site</h2>
-        <p class="center p-center">Fill out the required field</p>
-    </div>
     
-    <div class="pad-bottom artblock-wrapper portfolio-white">
-        <div class="forms island">
-            <form action="thanks.html" method="post">
+    <div class="pad-top pad-bottom bb-wrapper">
+        <div class="grid">
+            <div class="price-wrapper island unit">
+                <div class="form-wrapper">
+                    <div class="price-title">
+                        <a href="thanks.html"><img class="img-size-lg" src="images/af.svg" alt="ArtaFolio logo"></a>
+                    </div>
+                    
+                    <div class="forms island">
+                        <h2 class="red exa center pad-bottom">Create Your Website</h2>
+                        <p class="pad-bottom ">Fill out the required fields to create your account at ArtaFolio.</p>
+                        
+                        <form action="thanks.html" method="post">
+                            
+                            <div class="pad-bottom-half">
+                                <label for="name" class="strong">Full Name</label>
+                                <input class="field" id="name">
+                            </div>
 
-                <div class="pad-bottom-half">
-                    <label for="name">Full Name</label>
-                    <input class="field" id="name">
-                </div>
-                
-                <div class="pad-bottom-half">
-                    <label for="name">Username</label>
-                    <input class="field" id="name">
-                </div>
-                
-                <div class="pad-bottom-half">
-                    <label for="name">Site Title</label>
-                    <input class="field" id="name">
-                </div>
+                            <div class="pad-bottom-half">
+                                <label for="name" class="strong">E-mail</label>
+                                <input class="field" type="email" id="e-mail">
+                            </div>
 
-                <div class="pad-bottom-half">
-                    <label for="e-mail">E-mail</label>
-                    <input class="field" type="email" id="e-mail">
+                            <div class="pad-bottom-half">
+                                <label for="name" class="strong">Username</label>
+                                <input class="field" id="name" placeholder="username.artafolio.com">
+                            </div>
+    
+                            <div class="pad-bottom-half">
+                                <label for="e-mail" class="strong">Password</label>
+                                <input class="field" type="password" id="password">
+                            </div>
+
+                            <div>
+                                <label class="kilo" for="description">Describe your portfolio website:</label>
+                                <textarea id="escription"></textarea>
+                            </div>
+
+                            <div class="button island">
+                                <button type="submit">Create Your Site</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-                
-                <div class="pad-bottom-half">
-                    <label for="name">Site Title</label>
-                    <input class="field" id="name">
-                </div>
-
-                <div class="pad-bottom-half">
-                    <label for="age">Age</label>
-                    <input class="field" type="number" id="age">
-
-                </div>
-
-                <fieldset>
-                    <legend>Your level of awesomeness:</legend>
-
-                    <span class="radio">
-                        <input type="radio" id="not" name="level">
-                        <label for="not">Meh...</label>
-                    </span>
-                    <span class="radio">
-                        <input type="radio" id="good" name="level">
-                        <label for="good">Pretty good.</label>
-                    </span> 
-                    <span class="radio">
-                        <input type="radio" id="super" name="level">
-                        <label for="super">Super!</label>
-                    </span>
-                </fieldset>
-
-                <div>
-                    <label class="italic" for="deserve">Explain why you deserve to go:</label>
-                    <textarea id="deserve"></textarea>
-                </div>
-
-                <div class="button island">
-                    <button type="submit">Build My Site</button>
-                </div>
-            </form>
-        </div>      
+            </div>
+        </div>
     </div>
 </main>    
     
