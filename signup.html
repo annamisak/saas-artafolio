@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
     <meta charset="utf-8">
-    <title>ArtaFolio</title>
+    <title>ArtaFolio - Pricing</title>
     <link href="css/main.css" rel="stylesheet">
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/typography.css" rel="stylesheet">
@@ -17,7 +17,7 @@
     <li><a href="#nav">Skip to navigation</a></li>
 </ul>
     
-<header id="top" role="banner">
+<header id="top" role="banner" class="gutter">
     <div class="grid grid-middle masthead pad-bottom-half pad-top-half">
     <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 pad-t-1-2 pad-b-1-2 center-logo">
         <a href="index.html"><img src="images/af-logo-01.svg" class="logo push-0" alt="ArtaFolio Logo"></a>
@@ -34,57 +34,74 @@
 </header>
 
 <main role="main" id="main">
-    
-    <div class="forms slabo27px island">
-        <h2 class="zetta text-center">Join Jupiter's Exploration Team</h2>
-        <p class="text-center">Are you interested in exploring Jupiter with a group of extremely talented people? <span class="italic">Sign up below!</span></p>
-
-        <form action="thanks.html" method="post">
-    
-            <div class="pad-bottom-half">
-                <label for="name">Name</label>
-                <input class="field" id="name">
-            </div>
-    
-            <div class="pad-bottom-half">
-                <label for="e-mail">E-mail</label>
-                <input class="field" type="email" id="e-mail">
-            </div>
-            
-            <div class="pad-bottom-half">
-                <label for="age">Age</label>
-                <input class="field" type="number" id="age">
-
-            </div>
-            
-            <fieldset>
-                <legend>Your level of awesomeness:</legend>
-                
-                <span class="radio">
-                    <input type="radio" id="not" name="level">
-                    <label for="not">Meh...</label>
-                </span>
-                <span class="radio">
-                    <input type="radio" id="good" name="level">
-                    <label for="good">Pretty good.</label>
-                </span> 
-                <span class="radio">
-                    <input type="radio" id="super" name="level">
-                    <label for="super">Super!</label>
-                </span>
-            </fieldset>
-            
-            <div>
-                <label class="italic" for="deserve">Explain why you deserve to go:</label>
-                <textarea id="deserve"></textarea>
-            </div>
-            
-            <div class="button island">
-                <button type="submit">Sign Up</button>
-            </div>
-            </form>
+    <div class="bb-wrapper island">
+        <h2 class="red center zetta island push-0">Create your own site</h2>
+        <p class="center p-center">Fill out the required field</p>
     </div>
     
+    <div class="pad-bottom artblock-wrapper portfolio-white">
+        <div class="forms island">
+            <form action="thanks.html" method="post">
+
+                <div class="pad-bottom-half">
+                    <label for="name">Full Name</label>
+                    <input class="field" id="name">
+                </div>
+                
+                <div class="pad-bottom-half">
+                    <label for="name">Username</label>
+                    <input class="field" id="name">
+                </div>
+                
+                <div class="pad-bottom-half">
+                    <label for="name">Site Title</label>
+                    <input class="field" id="name">
+                </div>
+
+                <div class="pad-bottom-half">
+                    <label for="e-mail">E-mail</label>
+                    <input class="field" type="email" id="e-mail">
+                </div>
+                
+                <div class="pad-bottom-half">
+                    <label for="name">Site Title</label>
+                    <input class="field" id="name">
+                </div>
+
+                <div class="pad-bottom-half">
+                    <label for="age">Age</label>
+                    <input class="field" type="number" id="age">
+
+                </div>
+
+                <fieldset>
+                    <legend>Your level of awesomeness:</legend>
+
+                    <span class="radio">
+                        <input type="radio" id="not" name="level">
+                        <label for="not">Meh...</label>
+                    </span>
+                    <span class="radio">
+                        <input type="radio" id="good" name="level">
+                        <label for="good">Pretty good.</label>
+                    </span> 
+                    <span class="radio">
+                        <input type="radio" id="super" name="level">
+                        <label for="super">Super!</label>
+                    </span>
+                </fieldset>
+
+                <div>
+                    <label class="italic" for="deserve">Explain why you deserve to go:</label>
+                    <textarea id="deserve"></textarea>
+                </div>
+
+                <div class="button island">
+                    <button type="submit">Build My Site</button>
+                </div>
+            </form>
+        </div>      
+    </div>
 </main>    
     
 <footer class="footer pad-bottom pad-top">
