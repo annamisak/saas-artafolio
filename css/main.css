@@ -498,6 +498,10 @@ fieldset {
     transition: all 0.3s ease 0s;
 }
 
+.wrapper-footer {
+    color: grey;
+}
+
 /* ------------ NAVIGATION footer ends ------------ */
 
 
@@ -513,7 +517,6 @@ fieldset {
     
     .copyright {
         text-align: center;
-        color: grey;
     }
 
   .hidden {
