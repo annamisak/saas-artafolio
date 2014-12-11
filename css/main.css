@@ -206,7 +206,7 @@ h1 {
 
 h2 {
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .af-description {
@@ -512,8 +512,9 @@ fieldset {
     }
     
     .copyright {
-    text-align: center;
-  }
+        text-align: center;
+        color: grey;
+    }
 
   .hidden {
     display: inline;
