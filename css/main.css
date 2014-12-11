@@ -293,14 +293,6 @@ h2 {
     color: red;
 }
 
-p {
-    color: grey;
-}
-   
-.grey {
-    color: grey;
-}
-
 .black {
     color: #000;
 }
@@ -324,7 +316,6 @@ ul {
 }
 
 li {
-    color: grey;
     padding-bottom: .5em;
 }
 
@@ -442,7 +433,6 @@ fieldset {
     display: block;
     text-align: center;
     height: 100%;
-    color: grey;
 }
 
 .price-list li:hover {
