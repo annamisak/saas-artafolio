@@ -182,7 +182,7 @@ a:focus {
 .billboard-inside {
     background-color: rgba(0,0,0,0.5);
     position: absolute;
-    bottom: 5%;
+    bottom: 1%;
     margin: 0 auto;
     width: 100%;
 }
@@ -262,6 +262,10 @@ h2 {
 
 .img-size-lg {
     width: 4.2em;
+}
+
+.img-size-xlg {
+    width: 18em;
 }
 
 .strong {
