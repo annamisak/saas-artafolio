@@ -17,7 +17,7 @@ html {
   text-size-adjust: 100%;
 }
 
-@media only screen and (min-width: 68em) {
+@media only screen and (min-width: 70em) {
     
     html {
         font-size: 110%;
@@ -644,7 +644,7 @@ fieldset {
     }
 }
 
-@media only screen and (min-width: 68em) {
+@media only screen and (min-width: 70em) {
     
     .artblock-wrapper, .wrapper-footer, header {
         width: 80%;
