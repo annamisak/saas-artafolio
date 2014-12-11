@@ -317,6 +317,17 @@ p {
     display: block; 
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    color: grey;
+    padding-bottom: .5em;
+}
+
 /* ------------ COLOURS CENTERED-ELEMENTS MISC ends ------------ */
 
 /* ------------ Buttons starts ------------ */
@@ -562,6 +573,10 @@ fieldset {
     .pr {
         width: 80%;
     }
+    
+    .half-size {
+        width: 50%;
+    }
 
     
 }
@@ -610,6 +625,23 @@ fieldset {
         width: 100%;
     }
     
+    .float-left {
+        float: left;
+        clear: left;
+        text-align: left;
+        padding: 0;
+    }
+    
+    .float-right {
+        float: right;
+        clear: right;
+        text-align: right;
+        padding: 0;
+    }
+    
+    .original {
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 68em) {
