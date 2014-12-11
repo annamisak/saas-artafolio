@@ -376,7 +376,7 @@ input + label {
 
 input {
     border-radius: 10px;
-    border: 1px solid #c1c1c1;
+    border: 1px solid #000;
     padding: 1em;
     color: grey;
 }
