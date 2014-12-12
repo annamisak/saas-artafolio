@@ -319,6 +319,12 @@ li {
     padding-bottom: .5em;
 }
 
+.half-size {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
 /* ------------ COLOURS CENTERED-ELEMENTS MISC ends ------------ */
 
 /* ------------ Buttons starts ------------ */
@@ -426,19 +432,15 @@ fieldset {
 .price-list li {
     list-style-type: none;
     width: auto;
-    padding: 1.5em;
+    padding: .5em;
     margin: 0;
-    background-color: #f9f8f8;
-    border-bottom: 1px solid #c1c1c1;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
     display: block;
     text-align: center;
     height: 100%;
 }
 
-.price-list li:hover {
-    background-color: #f1f1f1;
-    transition: all 0.3s ease 0s;
-}
 
 .price-list ul {
     display: block;
@@ -567,12 +569,7 @@ fieldset {
     .pr {
         width: 80%;
     }
-    
-    .half-size {
-        width: 50%;
-    }
-
-    
+        
 }
 
 @media only screen and (min-width: 50em) {
@@ -636,6 +633,7 @@ fieldset {
     .original {
         width: 100%;
     }
+    
 }
 
 @media only screen and (min-width: 70em) {
