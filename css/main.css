@@ -101,16 +101,6 @@ a:active {
     border-radius: 20px 0px 0px 0px;
 }
 
-.title {
-    text-align: center;
-}
-   
-.intro {
-    background-color: #ecd2a1;
-    overflow: hidden;
-    text-align: center;
-}
-
 /* ------------ NAVIGATION starts ------------ */
 
 .masthead {
@@ -191,10 +181,6 @@ a:active {
 .bb-wrapper {
     background-color: #f1f1f1;
     border-top: 1px solid #c2c2c2;
-}
-
-.center-logo {
-    text-align: center;
 }
 
 .h1 {
@@ -341,7 +327,7 @@ li {
 
     background: red; 
     text-align: center; 
-    padding: 20px 30px 20px 30px; 
+    padding: 20px 40px 20px 40px; 
     color: #fff;  
     text-decoration: none;  
     line-height: 2em; 
@@ -573,7 +559,7 @@ fieldset {
         
 }
 
-@media only screen and (min-width: 50em) {
+@media only screen and (min-width: 51em) {
     
     .nav {
         text-align: center;
